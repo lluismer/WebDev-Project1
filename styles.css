@@ -1,3 +1,5 @@
+
+
 #heading{
     height: 100px;
     display: flex;
@@ -25,7 +27,7 @@
     padding: 10px;
 }
 .singularCrypto:hover{
-    background-color: gray;
+    background-color: red;
 }
 
 @keyframes spin{
@@ -33,7 +35,7 @@
         transform: rotateZ(0deg);
     }
     100% {
-        transform: rotateZ(180deg);
+        transform: rotateZ(360deg);
     }
 }
 
